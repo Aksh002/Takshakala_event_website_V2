@@ -6,7 +6,7 @@ const speaker = [
         date: '27th January 2025',
         time: '10:30 PM to 11:30 PM',
         venue: 'Ab5 Room-',
-        image: '/speaker1.jpg',
+        image: '/',
         // linkyt: '',
     },
     {
@@ -16,7 +16,7 @@ const speaker = [
         date: '28th January 2025',
         time: '12:00 PM',
         venue: 'Ab5 Room-',
-        image: '/speaker2.jpg',
+        image: '/',
         // linkyt: '',
     }, 
 ]
