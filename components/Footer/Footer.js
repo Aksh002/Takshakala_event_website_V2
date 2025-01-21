@@ -10,7 +10,7 @@ import { SiDiscord } from 'react-icons/si'
 import styles from './Footer.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import logo from '../../public/Neura_AI_horizontal.png'
+import logo from '../../public/png/MBOSC_vertical.jpg'
 const Footer = () => {
     function love() {
         alert("With ❤️💜💛, We present to you... NEURA AI's Flagship <Event>!")
@@ -25,7 +25,7 @@ const Footer = () => {
                     <ul>
                         <li>
                             <Link
-                                href="mailto:panchadip125@gmail.com"
+                                href="https://www.linkedin.com/company/mboscmitblr"
                                 passHref={true}
                             >
                                 <FaEnvelope />
@@ -43,7 +43,7 @@ const Footer = () => {
                         </li>
                         <li>
                             <Link
-                                href="/"
+                                href="https://www.instagram.com/manipalosc?utm_source=qr&r=nametag"
                                 passHref={true}
                             >
                                 <a target="_blank">
@@ -95,7 +95,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.footerLower}>
-                <span onClick={love} className={styles.heart}>Made with ❤️ by NEURA AI </span>
+                <span onClick={love} className={styles.heart}>Made with ❤️ by MBOSC </span>
             </div>
         </div>
     )

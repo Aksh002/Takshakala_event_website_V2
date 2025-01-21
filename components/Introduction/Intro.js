@@ -18,13 +18,13 @@ const Intro = () => {
     return (
         <div className={styles.container}>
             <div className={styles.textWrapper}>
-                <div className={`${styles.text3} ${styles.text}`}>CONCLAVE</div>
-                <div className={`${styles.text4} ${styles.text}`}>NEURA AI</div>
-                <div className={`${styles.text5} ${styles.text}`}>CONCLAVE</div>
-                <div className={`${styles.text6} ${styles.text}`}>NEURA AI</div>
-                <div className={`${styles.text7} ${styles.text}`}>CONCLAVE</div>
-                <div className={`${styles.text8} ${styles.text}`}>NEURA AI</div>
-                <div className={`${styles.text9} ${styles.text}`}>CONCLAVE</div>
+                <div className={`${styles.text3} ${styles.text}`}>TAKSHAKALA</div>
+                <div className={`${styles.text4} ${styles.text}`}>M B O S C</div>
+                <div className={`${styles.text5} ${styles.text}`}>TAKSHAKALA</div>
+                <div className={`${styles.text6} ${styles.text}`}>M B O S C</div>
+                <div className={`${styles.text7} ${styles.text}`}>TAKSHAKALA</div>
+                <div className={`${styles.text8} ${styles.text}`}>M B O S C</div>
+                <div className={`${styles.text9} ${styles.text}`}>TAKSHAKALA</div>
             </div>
         </div>
     )

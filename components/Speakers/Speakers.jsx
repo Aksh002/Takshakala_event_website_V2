@@ -16,10 +16,8 @@ export default function Speakers() {
                         detail={item.details}
                         date={item.date}
                         time={item.time}
+                        venue={item.venue}
                         image={item.image}
-                        how={item.how}
-                        link={item.link}
-                        linkyt={item.linkyt}
                     />
                 ))}
             </div>

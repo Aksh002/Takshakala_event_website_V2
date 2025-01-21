@@ -9,7 +9,7 @@ const HButtons = () => {
                     <button className={styles.b1}>Register</button>
             </Link>
             <button className={styles.b2}>
-                <Link href="/" target="_blank">
+                <Link href="https://chat.whatsapp.com/BawJht4Cx8e5jWOTaIUrQP" target="_blank">
                     <a target="_blank">
                         <FaWhatsapp className={styles.faicon} />
                         <span> Join Community </span>

@@ -76,18 +76,6 @@ export default function Timeline() {
                     <div onClick={handleday2}>
                         <Dcard name="Day 2" day={day2} />
                     </div>
-                    <div onClick={handleday3}>
-                        <Dcard name="Day 3" day={day3} />
-                    </div>
-                    <div onClick={handleday4}>
-                        <Dcard name="Day 4" day={day4} />
-                    </div>
-                    <div onClick={handleday5}>
-                        <Dcard name="Day 5" day={day5} />
-                    </div>
-                    <div onClick={handleday6}>
-                        <Dcard name="Day 6" day={day6} />
-                    </div>
                 </div>
                 <div
                     className={classNames(
@@ -101,6 +89,7 @@ export default function Timeline() {
                                 <Ecard
                                     name={item.name}
                                     time={item.time}
+                                    venue={item.venue}
                                     link={item.link}
                                 />
                             )
@@ -224,78 +213,6 @@ export default function Timeline() {
                     <div className={styles.events}>
                         {event.map((item) => {
                             if (item.day === 2) {
-                                return (
-                                    <Ecard
-                                        name={item.name}
-                                        time={item.time}
-                                        link={item.link}
-                                    />
-                                )
-                            }
-                        })}
-                    </div>
-                </div>
-                <div className={styles.mdays}>
-                    <div onClick={handleday3}>
-                        <Dcard name="Day 3" day={day3} />
-                    </div>
-                    <div className={styles.events}>
-                        {event.map((item) => {
-                            if (item.day === 3) {
-                                return (
-                                    <Ecard
-                                        name={item.name}
-                                        time={item.time}
-                                        link={item.link}
-                                    />
-                                )
-                            }
-                        })}
-                    </div>
-                </div>
-                <div className={styles.mdays}>
-                    <div onClick={handleday4}>
-                        <Dcard name="Day 4" day={day4} />
-                    </div>
-                    <div className={styles.events}>
-                        {event.map((item) => {
-                            if (item.day === 4) {
-                                return (
-                                    <Ecard
-                                        name={item.name}
-                                        time={item.time}
-                                        link={item.link}
-                                    />
-                                )
-                            }
-                        })}
-                    </div>
-                </div>
-                <div className={styles.mdays}>
-                    <div onClick={handleday5}>
-                        <Dcard name="Day 5" day={day5} />
-                    </div>
-                    <div className={styles.events}>
-                        {event.map((item) => {
-                            if (item.day === 5) {
-                                return (
-                                    <Ecard
-                                        name={item.name}
-                                        time={item.time}
-                                        link={item.link}
-                                    />
-                                )
-                            }
-                        })}
-                    </div>
-                </div>
-                <div className={styles.mdays}>
-                    <div onClick={handleday6}>
-                        <Dcard name="Day 6" day={day6} />
-                    </div>
-                    <div className={styles.events}>
-                        {event.map((item) => {
-                            if (item.day === 6) {
                                 return (
                                     <Ecard
                                         name={item.name}

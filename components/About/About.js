@@ -14,16 +14,16 @@ const About = () => {
             <div className={styles.title_container}>
                 <h1 className={styles.title} >
                   
-                    What is -<span>NEURA AI&nbsp;?</span>
+                    What is -<span>MBOSC&nbsp;?</span>
                 </h1>
 
                 <p className={styles.content}>
-                    NEURA AI is the biggest AI ML club in the campus hosting a variety of events 
+                    MBOSC is one of the biggest Techincal community in the campus hosting a variety of events 
                     <br />
                     <br />
-                    Dive into the world of Artificial Intelligence and Machine Learning, where innovation meets implementation.
-                    Join us to explore cutting-edge technologies, develop groundbreaking solutions, and shape the future of AI! at
-                    <h2>Industry Conclave 2.0</h2>
+                    Dive into the world of  Open Source and other Technologies  where innovation meets implementation.
+                    Join us to explore cutting-edge technologies, develop groundbreaking solutions, and shape the future! at
+                    <h2>TAKSHAKALA 2.0</h2>
 
                 </p>
                 {/* <div className={styles.btn_container}>
@@ -32,11 +32,11 @@ const About = () => {
             </div>
             <div className={styles.date_container}>
                 <div className={styles.left_date} >
-                    <Date day="28" month="January" subtxt="th" />
+                    <Date day="27" month="January" subtxt="th" />
                 </div>
                 <hr className={styles.line} />
                 <div className={styles.right_date} >
-                    <Date day="31" month="January" subtxt="st" />
+                    <Date day="28" month="January" subtxt="th" />
                 </div>
             </div>
             <br />
