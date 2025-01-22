@@ -7,7 +7,7 @@ const event = [
         name: 'Opening Ceremony',
         time: '9:30 AM - 10:30 AM',
         venue: 'AB-4 Audi',
-        link: 'https://www.youtube.com/watch?v=QWYWg0Wsz8c',
+        link: 'https://forms.office.com/r/vBnKNfMQ3C',
     },
     {
         id:2,

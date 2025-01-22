@@ -50,7 +50,7 @@ const Navbar = () => {
     return (
         <Nav>
             <div className="logo">
-                <Link href="/" passHref>
+                <Link href="https://res.cloudinary.com/dnzxcafqa/image/upload/v1737528171/MBOSC_nfba7r.png" passHref>
                     <a target="_self">
                         <Image
                             src="https://res.cloudinary.com/dnzxcafqa/image/upload/v1737528171/MBOSC_nfba7r.png"
