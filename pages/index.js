@@ -61,7 +61,7 @@ export default function Home() {
                         content="https://www.manipal.edu"
                     />
                     <meta property="og:type" content="website" />
-                    <link rel="icon" href="/MBOSC.png" />
+                    <link rel="icon" href="/" />
                 </Head>
                 {router.asPath === '/' ? (
                     show ? (
