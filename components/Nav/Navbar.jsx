@@ -53,11 +53,12 @@ const Navbar = () => {
                 <Link href="/" passHref>
                     <a target="_self">
                         <Image
-                            src="/https://res.cloudinary.com/dnzxcafqa/image/upload/v1737528171/MBOSC_nfba7r.png"
+                            src="https://res.cloudinary.com/dnzxcafqa/image/upload/v1737528171/MBOSC_nfba7r.png"
                             className="logoimg"
                             alt="MBOSC Logo"
                             height={70}
                             width={70}
+                            layout='intrinsic'
                             loading="eager"
                         ></Image>
                     </a>

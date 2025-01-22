@@ -19,7 +19,10 @@ const Footer = () => {
         <div className={styles.footer}>
             <div className={styles.footerUpper}>
                 <div className={styles.logo}>
-                    <Image src={logo} alt="Panchadip" priority={true} />
+                    <Image src='https://res.cloudinary.com/dnzxcafqa/image/upload/v1737528297/MBOSC_vertical_qiecjn.jpg' alt="Panchadip" layout='intrinsic'
+                    width={400} // Specify the width
+                    height={100} 
+                    priority={true} />
                 </div>
                 <div className={styles.icons}>
                     <ul>
