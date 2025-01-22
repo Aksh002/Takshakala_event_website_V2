@@ -53,7 +53,7 @@ const Navbar = () => {
                 <Link href="/" passHref>
                     <a target="_self">
                         <Image
-                            src="/MBOSC.png"
+                            src="/"
                             className="logoimg"
                             alt="Neura Logo"
                             height={70}
