@@ -73,6 +73,11 @@ const Card = (props) => {
                     </div>
                 </div>
             </div>
+            <style jsx global>{`
+                .card {
+                    // your styles here
+                }
+            `}</style>
         </div>
         // </div>
     )

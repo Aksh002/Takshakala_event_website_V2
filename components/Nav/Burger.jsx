@@ -91,22 +91,25 @@ const Burger = () => {
   })
   return (
     <>
-      <div className = "circleBack">
+      <div className="circleBack">
         <style jsx>{`
-          .circleBack{
+          .circleBack {
             position: fixed;
-            ${open ? "right: 16.5px;" : "right: 12px;"} 
+            ${open ? "right: 16.5px;" : "right: 12px;"}
             top: 13px;
             width: 45px;
             height: 45px;
             border-radius: 50%;
-            ${open ? "background: transparent": "background: #20202062"}
+            ${open ? "background: transparent" : "background: #20202062"}
           }
         `}</style>
-        <StyledBurger open={open} onClick={() => {!open ? document.getElementsByTagName("body")[0].style.overflow = "hidden" : document.getElementsByTagName("body")[0].style.overflow = "auto"; return setOpen(!open)}}>        
+        <StyledBurger open={open} onClick={() => {
+          !open ? document.getElementsByTagName("body")[0].style.overflow = "hidden" : document.getElementsByTagName("body")[0].style.overflow = "auto";
+          return setOpen(!open);
+        }}>
           <div className="first"/>
           <div className="second"/>
-          <div className="third"/>     
+          <div className="third"/>
         </StyledBurger>
       </div>      
       <RightNav open={open} setOpen = {setOpen}/>

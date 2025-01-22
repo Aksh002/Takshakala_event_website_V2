@@ -9,5 +9,10 @@
             "jsx": true
         }
     },
-    "extends": ["next", "prettier"]
+    "extends": ["next", "prettier"],
+    "rules": {
+        "react/no-unknown-property": ["error", {
+        "ignore": ["jsx", "global"]
+        }]
+    }
 }
