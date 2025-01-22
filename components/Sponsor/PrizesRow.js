@@ -8,7 +8,7 @@ export const PrizesRow  = (props) => {
         return (
             <div className={styleP.prizesRow}>
                 {props.prizes.map((prizes) => {
-                 return <div key={prizes.id} className="column div-margin" align="center">
+                 return <div key={prizes.id} className={`${styleP.column} ${styleP.divMargin} ${styleP.alignCenter}`}>
                         <Image src={prizes.logo} alt="Logo not available" width={140} height={140} className={styleP.prizesImg}/>
                         <h2 className={styleP.prizesLabel}>{prizes.name}</h2>
                         <h2 className={styleP.prizesDesc}>{prizes.desc}</h2>

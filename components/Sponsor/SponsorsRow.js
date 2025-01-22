@@ -8,7 +8,7 @@ export const SponsorsRow  = (props) => {
         return (
             <div className={styles.sponsorRow}>
                 {props.sponsors.map((sponsor) => {
-                 return <div key={sponsor.id} className="column div-margin" align="center">
+                 return <div key={sponsor.id} className={`${styles.column} ${styles.divMargin} ${styles.alignCenter}`} >
                         <a href={sponsor.link} target="_blank" rel="noopener noreferrer">
                             <>
                             <Image src={sponsor.logo} alt="Logo not available" width={145} height={145} className="Img"/>
