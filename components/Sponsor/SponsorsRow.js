@@ -40,11 +40,6 @@ export const SponsorsRow  = (props) => {
                         </a>
                     </div>
             })}
-            <style jsx global>{`
-                .sponsorRow {
-                    // your styles here
-                }
-            `}</style>
             </div>
         )
     }
