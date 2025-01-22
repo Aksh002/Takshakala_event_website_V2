@@ -1,4 +1,5 @@
 import styles from '../../styles/attendees.module.css'
+import Image from 'next/image'
 
 const Attendes = () => {
     return (
@@ -19,10 +20,12 @@ const Attendes = () => {
                     </p>
                 </div>
                 <div data-aos="fade-left" className={styles.img}>
-                    <img
+                    <Image
                         data-aos="rotate-c"
                         src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632664486/DSC_0838_2_zxyp2n.jpg"
+                        layout='fill'
                         className={styles.hi}
+                        alt="Adrenaline-packed events to enjoy"
                     />
                 </div>
 
@@ -38,10 +41,12 @@ const Attendes = () => {
                     </p>
                 </div>
                 <div data-aos="fade-left" className={styles.img}>
-                    <img
+                    <Image
                         data-aos="rotate-c"
                         src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632664486/DSC02855_1_x0oa32.jpg"
+                        layout='fill'
                         className={styles.hi2}
+                        alt="Adrenaline-packed events to enjoy"
                     />
                 </div>
 
@@ -56,10 +61,12 @@ const Attendes = () => {
                     </p>
                 </div>
                 <div data-aos="fade-left" className={styles.img}>
-                    <img
+                    <Image
                         data-aos="rotate-c"
                         src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632664485/DSC_0277_1_tdbkek_1_q1hcom.jpg"
+                        layout='fill'
                         className={styles.hi3}
+                        alt="Adrenaline-packed events to enjoy"
                     />
                 </div>
             </div>

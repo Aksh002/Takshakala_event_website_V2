@@ -31,8 +31,8 @@ const Card = (props) => {
                         <Image
                             src={img}
                             alt="poster"
-                            height="300"
-                            width="250"
+                            height={300}
+                            width={250}
                             className="imgs"
                         />
                     )}

@@ -27,36 +27,36 @@ cursor: pointer;
     cursor: pointer;  
     height: 2px;
     margin-bottom:7px;
-    background-color: ${({ open }) => open ? 'white' : 'white'};
+    background-color: ${({ open }) => (open ? 'white' : 'white')};
     border-radius: 0.625rem;
     transition: all 0.3s linear;
 
     &:nth-child(1) {
       transform-origin: 0%;
-      width: ${({ open }) => open ? '30px': '15px'};
-      transform: ${({ open }) => open ? 'rotate(42deg)' : 'rotate(0)'};
+      width: ${({ open }) => (open ? '30px': '15px')};
+      transform: ${({ open }) => (open ? 'rotate(42deg)' : 'rotate(0)')};
     }
     &:nth-child(2) {
       width: 30px;
       transform-origin: centre;
-      transform: ${({ open }) => open ? 'translateX(100%)' : 'translateX(0)'};
-      opacity: ${({ open }) => open ? 0 : 1};
+      transform: ${({ open }) => (open ? 'translateX(100%)' : 'translateX(0)')};
+      opacity: ${({ open }) => (open ? 0 : 1)};
     }
     &:nth-child(3) {
       
       transform-origin: 0%;
-      width: ${({ open }) => open ? '30px': '15px'};
+      width: ${({ open }) => (open ? '30px': '15px')};
 
       align-self: flex-end;
-      transform: ${({ open }) => open ? 'rotate(-42deg)' : 'rotate(0)'};
+      transform: ${({ open }) => (open ? 'rotate(-42deg)' : 'rotate(0)')};
     }
   }
     &:hover .first {
-      width: ${({ open }) => open ? '': '30px'};
+      width: ${({ open }) => (open ? '': '30px')};
       
   }
   &:hover .third {
-      width: ${({ open }) => open ? '': '30px'};
+      width: ${({ open }) => (open ? '': '30px')};
      
     }
   

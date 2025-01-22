@@ -49,7 +49,9 @@
     font-weight: 700;
 }
 .img {
+    position: relative;
     width: 100%;
+    height: 300px;
 }
 .bl {
     position: static;
